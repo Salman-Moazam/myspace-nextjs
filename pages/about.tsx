@@ -1,13 +1,11 @@
 export const dynamic = "force-static";
 
-import React from "react";
-import NavMenu from "@/src/components/NavMenu/NavMenu";
+import About from "@/src/Views/About/About";
 
 const about = () => {
 	return (
 		<div>
-			<NavMenu />
-			<h1>About Page</h1>
+			<About />
 		</div>
 	);
 };

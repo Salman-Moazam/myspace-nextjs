@@ -1,10 +1,10 @@
-import NavMenu from "@/src/components/NavMenu/NavMenu";
 import React from "react";
+import Users from "@/src/Views/Users/Users";
 
 const users = () => {
 	return (
 		<div>
-			<NavMenu />
+			<Users />
 		</div>
 	);
 };

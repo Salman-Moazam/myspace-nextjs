@@ -1,10 +1,9 @@
-import NavMenu from "@/src/components/NavMenu/NavMenu";
-import React from "react";
+import Blog from "@/src/Views/Blog/Blog";
 
 const blog = () => {
 	return (
 		<div>
-			<NavMenu />
+			<Blog />
 		</div>
 	);
 };
